@@ -1,0 +1,15 @@
+python-dotenv
+langchain
+langchain-openai
+langgraph
+ipykernel
+langsmith
+langchain_anthropic
+tavily-python
+langchain-community
+langchain-fireworks
+bs4
+chromadb
+langchainhub
+langchain_nomic
+nomic[local]
