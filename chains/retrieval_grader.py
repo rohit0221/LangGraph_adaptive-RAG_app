@@ -5,8 +5,8 @@ load_dotenv()
 from langchain_core.pydantic_v1 import BaseModel, Field
 from langchain_openai import ChatOpenAI
 llm = ChatOpenAI(model="gpt-3.5-turbo-0125", temperature=0)
-from build_prompts import *
-from indexer import *
+from prompts.build_prompts import *
+from chains.indexer import *
 
 ### Retrieval Grader
 # Data model

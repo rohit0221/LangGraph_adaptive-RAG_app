@@ -2,8 +2,8 @@ from typing import List
 
 from typing_extensions import TypedDict
 
-from nodes import *
-from edges import *
+from graph.nodes import *
+from graph.edges import *
 
 class GraphState(TypedDict):
     """

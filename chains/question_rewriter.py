@@ -5,8 +5,8 @@ load_dotenv()
 from langchain_openai import ChatOpenAI
 from langchain_core.output_parsers import StrOutputParser
 
-from retrieval_grader import *
-from build_prompts import *
+from chains.retrieval_grader import *
+from prompts.build_prompts import *
 
 ### Question Re-writer
 

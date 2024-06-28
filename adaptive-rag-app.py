@@ -3,8 +3,9 @@ import os
 load_dotenv()
 
 
-from app_graph import create_graph_app
+from graph.app_graph import create_graph_app
 
+from graph.app_graph import create_graph_app
 
 from pprint import pprint
 

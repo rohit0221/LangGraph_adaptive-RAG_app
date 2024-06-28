@@ -4,7 +4,7 @@ load_dotenv()
 from typing import Literal
 from langchain_core.pydantic_v1 import BaseModel, Field
 
-from build_prompts import build_route_prompt
+from prompts.build_prompts import build_route_prompt
 from langchain_openai import ChatOpenAI
 
 llm = ChatOpenAI(model="gpt-3.5-turbo-0125", temperature=0)

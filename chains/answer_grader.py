@@ -4,7 +4,7 @@ load_dotenv()
 
 from langchain_core.pydantic_v1 import BaseModel, Field
 from langchain_openai import ChatOpenAI
-from build_prompts import *
+from prompts.build_prompts import *
 
 ### Answer Grader
 

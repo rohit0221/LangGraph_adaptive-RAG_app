@@ -1,5 +1,5 @@
 from langchain_openai import ChatOpenAI
-from indexer import *
+from chains.indexer import *
 
 
 ### Generate

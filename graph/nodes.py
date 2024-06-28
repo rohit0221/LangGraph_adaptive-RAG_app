@@ -3,12 +3,12 @@ from langchain_community.tools.tavily_search import TavilySearchResults
 web_search_tool = TavilySearchResults(k=3)
 
 from langchain.schema import Document
-from indexer import *
-from retrieval_grader import *
-from question_rewriter import *
-from hullucination_grader import *
-from answer_grader import *
-from response_generator import *
+from chains.indexer import *
+from chains.retrieval_grader import *
+from chains.question_rewriter import *
+from chains.hullucination_grader import *
+from chains.answer_grader import *
+from chains.response_generator import *
 
 def retrieve(state):
     """
